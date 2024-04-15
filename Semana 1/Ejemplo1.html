@@ -1,0 +1,26 @@
+<script>
+  //--------------------------------------
+  function Divisores(num) {
+    var i;
+    document.write("<table border=1 bgcolor=#F7DC6F>");
+    for (i = 1; i <= num; i++) {
+      if (num % i == 0)
+        document.write(
+          "<tr><td><font face='Verdana' size=5  color=#6E2C00>" +
+            i +
+            "</font></td></tr>"
+        );
+    }
+    document.write("</table>");
+  }
+  //--------------------------------------
+  var N, numero;
+  N = 100;
+  for (i = 1; i <= N; i++) {
+    numero = 10 + Math.floor(Math.random() * 90);
+    document.write("<hr>");
+    document.write("<H1>" + numero + "</H1>");
+    Divisores(numero);
+  }
+  //--------------------------------------
+</script>
