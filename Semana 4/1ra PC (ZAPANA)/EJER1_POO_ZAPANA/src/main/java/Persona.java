@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class Persona {
 //----------------------------------------------------------------
 //PROPIEDADES O ATRIBUTOS
@@ -76,53 +74,6 @@ public String Obtener_Telefono() {
 public String Obtener_FecNac() {
    return this.FecNac;
 }
-//----------------------------------------------------------------
-//-----------------------------------------------
-//-----------------------------------------------
-public void IngresarDatosGenerales() {
-Tools   TLS = new Tools();
-Scanner SCN = new Scanner(System.in);
-String zDNI;
-String zNomApe;
-String zEdad;
-String zDireccion;
-String zTelefono;
-String zFecNac;
 
-   System.out.println("=========================");
-   System.out.println("Ingreso de Datos");
-   System.out.println("=========================");
-       
-   do {
-     System.out.print("DNI                : ");
-     zDNI = SCN.nextLine();
-   } while(TLS.DNI_Ok(zDNI)==false);
-     
-
-   do {
-     System.out.print("Nombres y Apellidos: ");
-     zNomApe = SCN.nextLine();
-   } while(TLS.NomApe_Ok(zNomApe)==false);
-
-     
-   do {
-     System.out.print("Edad               : ");
-     zEdad = SCN.nextLine();
-   } while(TLS.Edad_Ok(zEdad)==false);
-       
-   System.out.print("Direccion          : ");
-   zDireccion = SCN.nextLine();
-
-   do {
-      System.out.print("Telefono           : ");
-      zTelefono = SCN.nextLine();
-   } while(TLS.Telefono_Ok(zTelefono)==false);
-     
-   do {
-      System.out.print("Fecha de Nacimiento: ");
-      zFecNac = SCN.nextLine();
-   } while(TLS.FecNac_Ok(zFecNac)==false);
-}
-//-----------------------------------------------
 } //class
 
