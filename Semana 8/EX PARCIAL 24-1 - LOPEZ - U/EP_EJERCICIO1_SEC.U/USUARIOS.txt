@@ -1,0 +1,6 @@
+ID |Nombres y Apellidos           |Login     |Password  |E|Fecha de ingreso
+---------------------------------------------------------------------------
+001|Martin Zapana Berrospi        |marzabe   |123456    |1|10052024
+002|Jorge Rodriguez Sanchez       |jorgito   |11111     |0|12052024
+003|Raul Gimenez Suarez           |raulsu    |15543     |1|15032024
+050|Marcos Rojas Amanda           |marcosra  |99999     |0|10012024

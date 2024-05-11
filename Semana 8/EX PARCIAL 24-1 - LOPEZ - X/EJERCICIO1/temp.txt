@@ -1,0 +1,17 @@
+ID |Descripcion                   |RUC        |Telefono |T|UbiGeo
+001|Universidad Municipal de Junin|22222222222|223456789|1|120101
+002|Universidad Regional de Tumbes|33333333333|333456789|1|240101
+003|Universidad Autonoma del Cuzco|44444444444|443456789|2|080104
+004|Centro Avanzado Aeroespacial  |55555555555|553456789|1|180101
+005|Laboratorio Farmaceutico      |88888888888|323233333|2|110101
+006|Instituto Pedagogico Nacional |98989898999|121212121|1|130101
+007|Centro de Sistemas Complejos  |11178787887|161616155|2|040101
+008|Laboratorio de Data Science   |98291821829|152615251|2|150114
+009|Universidad Regional de Lima  |11111111111|113456789|1|150811
+011|Centro Avanzado de Software   |77777777777|123939393|2|150131
+012|Instituto de Marketing        |73726736273|273276372|2|150122
+013|Hospital Regional Andino      |95559999888|077777543|1|030201
+014|Hospital Regional Amazonico   |95559999999|009855543|1|250101
+016|Centro de Salud Infantil      |89891281982|919191919|2|150105
+017|Instituto Farmaceutico Pasteur|17892111111|189899999|2|150136
+020|DDDDDDDDDDDDDDDD              |00512412412|051231244|2|123125
